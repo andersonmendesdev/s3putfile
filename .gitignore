@@ -1,0 +1,4 @@
+#depencency
+node_modules/
+#config aws
+config/
