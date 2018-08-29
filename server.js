@@ -27,14 +27,14 @@ app.post('/uploaders',upload.array('files'), (req, res) => {
     })
 })
 
-    app.post('/bulkupload', upload.array('files'), (req, res) => {
-        res.send({
-            status: 200,
-            data: {
-                sucess: true,
-                file: req.files
-            }
-        })   
-    })
+app.post('/bulkupload', upload.array('files'), (req, res) => {
+    res.send({
+        status: 200,
+        data: {
+            sucess: true,
+            file: req.files
+        }
+    })   
+})
 
 app.listen(port, () => console.log('running in port '+port))

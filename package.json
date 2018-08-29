@@ -6,7 +6,7 @@
   "scripts": {
     "start-babel": "babel-node index.js",
     "dev-babel": "nodemon --exec babel-node index.js",
-    "dev":"nodemon node server",
+    "dev":"nodemon node server.js",
     "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
